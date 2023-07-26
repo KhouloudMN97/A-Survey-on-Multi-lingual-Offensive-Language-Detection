@@ -1,3 +1,3 @@
 # Multi-lingual Offensive Language Detection: a survey
 
-## This version is not yet ready, it will be finalised soon
+## This version is not ready yet, it will be finalized soon.
