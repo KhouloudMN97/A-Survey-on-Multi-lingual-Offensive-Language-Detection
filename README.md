@@ -9,4 +9,3 @@
 ## Resources for Multilingual Hate Speech Detection 
 ## Challenges and limitations 
 
-# Introduction
