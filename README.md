@@ -99,7 +99,7 @@ $\diamondsuit$/$\clubsuit$: $\diamondsuit$ refers to **Multilingual** methods & 
 | **Multitask-L - Auxiliary task**          | [1](https://aclanthology.org/2022.jeptalnrecital-taln.41/) $\clubsuit$                  | En, It and Es                        | Based XLM-R, XLM-T                          | 2022 |
 |                                          | [2](https://aclanthology.org/2022.findings-aacl.33/) $\clubsuit$                  | En, It and Es                        | Based mBERT, XLM-R, XLM-T                   | 2022 |
 | **UL - GAE**                             | [1](https://aclanthology.org/2022.lrec-1.236/) $\diamondsuit$               | En, De, Ru, Tr, Hr and Sq             | Based mBERT, XLM-R (TFIDF)                   | 2022 |
-| **UL - Adversarial**                      | [1](https://www.sciencedirect.com/science/article/pii/S0045790622002725) $\clubsuit$           
+| **UL - Adversarial**                      | [1](https://www.sciencedirect.com/science/article/pii/S0045790622002725) $\clubsuit$        | En, Da, Ar, El and Tr          | Based mBERT               | 2022   
 
 
 ## Resources for Multilingual Hate Speech Detection
