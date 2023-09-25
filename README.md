@@ -8,3 +8,5 @@
 ## Approaches on Multilingual Hate Speech Detection (#Approaches on Multilingual Hate Speech Detection)
 ## Resources for Multilingual Hate Speech Detection (#Resources for Multilingual Hate Speech Detection)
 ## Challenges and limitations (#Challenges and limitations)
+
+# Introduction
