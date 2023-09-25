@@ -56,7 +56,7 @@ Abbreviations: LR (Logistic Regression), TL (Transfer Learning), MT (Machine Tra
 $\diamondsuit$/$\clubsuit$: $\diamondsuit$ refers to **Multilingual** methods & $\clubsuit$ refers to **cross-lingual** methods. Feature extraction methods are put between ().
 
 | Techniques                               | Ref. $\diamondsuit$/$\clubsuit$ | Focused Languages                       | Approach (Feature Extraction Methods)         | Year |
-|:-----------------------------------------|:----------------------------------|:---------------------------------------|:-----------------------------------------------|:-----|
+|:-----------------------------------------|:------------------------------------|:---------------------------------------|:-----------------------------------------------|:-----|
 | **Logistic Regression (LR)**              | [1](https://www.mdpi.com/2078-2489/12/1/5) $\diamondsuit$                | Hi, En and Code Mixed                  | Word embedding for feature extraction            | 2020 |
 |                                          | [2](https://arxiv.org/abs/2004.06465) $\diamondsuit$                | Ar, En, De, Id, It, Pl, Pt, Es and Fr | MUSE and LASER for feature extraction           | 2020 |
 | **Deep Neural Network (DNN)**            | [1](https://www.mdpi.com/2078-2489/12/1/5) $\diamondsuit$                | Hi, En and Code Mixed                  | CNN-LSTM (Word embedding)                       | 2020 |
@@ -64,42 +64,42 @@ $\diamondsuit$/$\clubsuit$: $\diamondsuit$ refers to **Multilingual** methods & 
 |                                          | [3](https://arxiv.org/abs/2108.03089) $\clubsuit$                   | En, Es and It: 6 languages pairs      | Bi-LSTM based capsule network (FastText)       | 2021 |
 | **Transfer Learning (TL)**               | [1](https://www.mdpi.com/2078-2489/12/1/5) $\diamondsuit$                | Hi, En and code mixed                  | BERT                                           | 2020 |
 |                                          | [2](https://arxiv.org/abs/2004.06465) $\diamondsuit$                | Ar, En, De, Id, It, Pl, Pt, Es, Fr    | mBERT                                          | 2020 |
-|                                          | [3] $\diamondsuit$                | En, Tr, Da, El and Ar                 | XLM-R                                          | 2020 |
-|                                          | [4] $\diamondsuit$                | En, Hi and Mr                        | XLM-R, mBERT, DistilmBERT (emoji2vec)         | 2021 |
-|                                          | [5] $\diamondsuit$                | En, De, Hi                           | XLM-R                                          | 2021 |
-|                                          | [6] $\diamondsuit$                | En, Ar, De, Id, It, Pt, Es, Fr, Tr, Da and Hi | mBERT (MUSE and LASER)             | 2022 |
-|                                          | [7] $\diamondsuit$                | En and Ar                            | BERT, mBERT and AraBERT                        | 2022 |
-|                                          | [8] $\clubsuit$                   | En, Da, El, Ar and Tr               | mBERT                                          | 2020 |
-|                                          | [9] $\clubsuit$                   | En, Hi, Bn and Es                   | XLM-R                                          | 2020 |
-|                                          | [10] $\clubsuit$                  | En, El, Da, Ar and Tr               | XLM-R                                          | 2020 |
-|                                          | [11] $\clubsuit$                  | En to Es                            | XLM-R based AXEL                               | 2020 |
-|                                          | [12] $\clubsuit$                  | En, Ar, Bn, Da, El, Hi, Es, and Tr  | XLM-R                                          | 2021 |
-|                                          | [13] $\clubsuit$                  | En, Es, De, Id and Ar              | mBERT, LASER                                   | 2021 |
-|                                          | [14] $\clubsuit$                  | En, Fr                             | mBERT, XLM-R                                   | 2021 |
-|                                          | [15] $\clubsuit$                  | En and 6 Indian languages: Indo-Aryan (Bn, Hi-En, Ur-En) and Dravidian (Kn-En, Malayalam-En, Ta-En) | mBERT, XLM-R             | 2021 |
-|                                          | [16] $\clubsuit$                  | Ar, Hr, De, En, and Sl             | mBERT, CseBERT                                  | 2021 |
-|                                          | [17] $\clubsuit$                  | En, Es                             | MLIAN: Multilingual Interactive Attention Network (LASER, DistilmBERT) | 2021 |
-|                                          | [18] $\clubsuit$                  | En, De, Da, Pl, Ru, Ja and Ko     | mBERT, XLM-R                                   | 2022 |
-|                                          | [19] $\clubsuit$                  | En, Es, It, De, Ar, El and Tr       | RoBERTa, BERT                                  | 2022 |
-| **Machine Translation (MT)**             | [1] $\clubsuit$                  | Hi, En, and  Id                     | Google Translate API to translate all data between source and target languages. | 2019 |
-|                                          | [2] $\clubsuit$                   | Ar, En, De, Id, It, Pl, Pt, Es and Fr | Google Translate API to translate all the datasets in different languages to English = input to BERT | 2020 |
-|                                          | [3] $\clubsuit$                   | En, Es and It: 6 languages pairs      | Google Translate API to translate all data between source and target languages  | 2021 |
-|                                          | [4] $\clubsuit$                  | En, Fr, De, Id, It, Pt and Es    | Google Translate API to translate all datasets into En = input to BERT  | 2021 |
-| **Ensemble Learning (EL)**               | [1] $\diamondsuit$               | En, De, Fr, Es and No                | Based DeBERTa: Simple averaging, weighted averaging based on AUC, and LightGBM using predictions as input. | 2023 |
-|                                          | [2] $\clubsuit$                  | En, El, Da, Ar and Tr               | Majority Voting based mBERT                     | 2020 |
-|                                          | [3] $\clubsuit$                  | En and De                            | Based Bilingual word embeddings: FastText then MUSE | 2021 |
-|                                          | [4] $\clubsuit$                  | En and De                            | Based mBERT, CNN and LSTM (Cross-Lingual Word Embeddings) | 2022 |
-|                                          | [5] $\clubsuit$                  | En and Es                            | Based mBERT                                     | 2023 |
-| **Meta Learning (Meta-L)**               | [1] $\clubsuit$                  | Ta-English and Malayalam-English code-mixed | MAML and Proto-MAML, based XLM-R | 2021 |
-|                                          | [2] $\clubsuit$                  | Hate speech: En, Ar, Es, De, Id, It, Pt, Fr and Offensive lang. Ar, Da, En, El, Fa and Tr | MAML and Proto-MAML, based XLM-R | 2022 |
-|                                          | [3] $\clubsuit$                  | En, Es, Ar, Da, El, Tr, Hi, De, It| HateMAML: domain-adaptive MAML based mBERT and XLM-R | 2023 |
-| **Multitask-L - Joint training**          | [1] $\diamondsuit$               | Fr and En                            | Based Bi-LSTM (Glove bilingual word embeddings) | 2019 |
-|                                          | [2] $\clubsuit$                  | En, It, Es, and De                   | Based MUSE                                    | 2019 |
-|                                          | [3] $\clubsuit$                  | En, Fr, De, Id, It, Pt and Es    | Based MUSE, LASER, mBERT                    | 2021 |
-| **Multitask-L - Auxiliary task**          | [1] $\clubsuit$                  | En, It and Es                        | Based XLM-R, XLM-T                          | 2022 |
-|                                          | [2] $\clubsuit$                  | En, It and Es                        | Based mBERT, XLM-R, XLM-T                   | 2022 |
-| **UL - GAE**                             | [1] $\diamondsuit$               | En, De, Ru, Tr, Hr and Sq             | Based mBERT, XLM-R (TFIDF)                   | 2022 |
-| **UL - Adversarial**                      | [1] $\clubsuit$           
+|                                          | [3](https://aclanthology.org/2020.semeval-1.189/) $\diamondsuit$                | En, Tr, Da, El and Ar                 | XLM-R                                          | 2020 |
+|                                          | [4](https://arxiv.org/abs/2109.13711) $\diamondsuit$                | En, Hi and Mr                        | XLM-R, mBERT, DistilmBERT (emoji2vec)         | 2021 |
+|                                          | [5](https://arxiv.org/abs/2101.03207) $\diamondsuit$                | En, De, Hi                           | XLM-R                                          | 2021 |
+|                                          | [6](https://arxiv.org/abs/2201.11294) $\diamondsuit$                | En, Ar, De, Id, It, Pt, Es, Fr, Tr, Da and Hi | mBERT (MUSE and LASER)             | 2022 |
+|                                          | [7](https://www.sciencedirect.com/science/article/pii/S1319157821001804) $\diamondsuit$                | En and Ar                            | BERT, mBERT and AraBERT                        | 2022 |
+|                                          | [8](https://aclanthology.org/2020.semeval-1.274/) $\clubsuit$                   | En, Da, El, Ar and Tr               | mBERT                                          | 2020 |
+|                                          | [9](https://aclanthology.org/2020.emnlp-main.470/) $\clubsuit$                   | En, Hi, Bn and Es                   | XLM-R                                          | 2020 |
+|                                          | [10](https://aclanthology.org/2020.semeval-1.290/) $\clubsuit$                  | En, El, Da, Ar and Tr               | XLM-R                                          | 2020 |
+|                                          | [11](https://arxiv.org/abs/2004.13850) $\clubsuit$                  | En to Es                            | XLM-R based AXEL                               | 2020 |
+|                                          | [12](https://dl.acm.org/doi/10.1145/3457610) $\clubsuit$                  | En, Ar, Bn, Da, El, Hi, Es, and Tr  | XLM-R                                          | 2021 |
+|                                          | [13](https://aclanthology.org/2021.hackashop-1.5/) $\clubsuit$                  | En, Es, De, Id and Ar              | mBERT, LASER                                   | 2021 |
+|                                          | [14](https://arxiv.org/abs/2111.00981) $\clubsuit$                  | En, Fr                             | mBERT, XLM-R                                   | 2021 |
+|                                          | [15](https://www.mdpi.com/2078-2489/12/8/306) $\clubsuit$                  | En and 6 Indian languages: Indo-Aryan (Bn, Hi-En, Ur-En) and Dravidian (Kn-En, Malayalam-En, Ta-En) | mBERT, XLM-R             | 2021 |
+|                                          | [16](https://peerj.com/articles/cs-559/) $\clubsuit$                  | Ar, Hr, De, En, and Sl             | mBERT, CseBERT                                  | 2021 |
+|                                          | [17](https://dl.acm.org/doi/10.1145/3447535.3462495) $\clubsuit$                  | En, Es                             | MLIAN: Multilingual Interactive Attention Network (LASER, DistilmBERT) | 2021 |
+|                                          | [18](https://www.sciencedirect.com/science/article/pii/S0306457322000978) $\clubsuit$                  | En, De, Da, Pl, Ru, Ja and Ko     | mBERT, XLM-R                                   | 2022 |
+|                                          | [19](https://ojs.aaai.org/index.php/ICWSM/article/view/19402) $\clubsuit$                  | En, Es, It, De, Ar, El and Tr       | RoBERTa, BERT                                  | 2022 |
+| **Machine Translation (MT)**             | [1](https://core.ac.uk/reader/296919330) $\clubsuit$                  | Hi, En, and  Id                     | Google Translate API to translate all data between source and target languages. | 2019 |
+|                                          | [2](https://arxiv.org/abs/2004.06465) $\clubsuit$                   | Ar, En, De, Id, It, Pl, Pt, Es and Fr | Google Translate API to translate all the datasets in different languages to English = input to BERT | 2020 |
+|                                          | [3](https://dl.acm.org/doi/10.1145/3465336.3475102) $\clubsuit$                   | En, Es and It: 6 languages pairs      | Google Translate API to translate all data between source and target languages  | 2021 |
+|                                          | [4](https://www.sciencedirect.com/science/article/pii/S0306457321000510) $\clubsuit$                  | En, Fr, De, Id, It, Pt and Es    | Google Translate API to translate all datasets into En = input to BERT  | 2021 |
+| **Ensemble Learning (EL)**               | [1](https://www.sciencedirect.com/science/article/pii/S1566253523002038) $\diamondsuit$               | En, De, Fr, Es and No                | Based DeBERTa: Simple averaging, weighted averaging based on AUC, and LightGBM using predictions as input. | 2023 |
+|                                          | [2](https://aclanthology.org/2020.semeval-1.206/) $\clubsuit$                  | En, El, Da, Ar and Tr               | Majority Voting based mBERT                     | 2020 |
+|                                          | [3](https://aclanthology.org/2021.ltedi-1.3/) $\clubsuit$                  | En and De                            | Based Bilingual word embeddings: FastText then MUSE | 2021 |
+|                                          | [4](https://arxiv.org/abs/2201.05922) $\clubsuit$                  | En and De                            | Based mBERT, CNN and LSTM (Cross-Lingual Word Embeddings) | 2022 |
+|                                          | [5](https://link.springer.com/article/10.1007/s10579-023-09637-4) $\clubsuit$                  | En and Es                            | Based mBERT                                     | 2023 |
+| **Meta Learning (Meta-L)**               | [1](https://dl.acm.org/doi/abs/10.1145/3503162.3503167) $\clubsuit$                  | Ta-English and Malayalam-English code-mixed | MAML and Proto-MAML, based XLM-R | 2021 |
+|                                          | [2](https://ieeexplore.ieee.org/document/9696324) $\clubsuit$                  | Hate speech: En, Ar, Es, De, Id, It, Pt, Fr and Offensive lang. Ar, Da, En, El, Fa and Tr | MAML and Proto-MAML, based XLM-R | 2022 |
+|                                          | [3](https://arxiv.org/abs/2303.02513) $\clubsuit$                  | En, Es, Ar, Da, El, Tr, Hi, De, It| HateMAML: domain-adaptive MAML based mBERT and XLM-R | 2023 |
+| **Multitask-L - Joint training**          | [1](https://aclanthology.org/2019.jeptalnrecital-court.21/) $\diamondsuit$               | Fr and En                            | Based Bi-LSTM (Glove bilingual word embeddings) | 2019 |
+|                                          | [2](https://aclanthology.org/P19-2051/) $\clubsuit$                  | En, It, Es, and De                   | Based MUSE                                    | 2019 |
+|                                          | [3](https://www.sciencedirect.com/science/article/pii/S0306457321000510) $\clubsuit$                  | En, Fr, De, Id, It, Pt and Es    | Based MUSE, LASER, mBERT                    | 2021 |
+| **Multitask-L - Auxiliary task**          | [1](https://aclanthology.org/2022.jeptalnrecital-taln.41/) $\clubsuit$                  | En, It and Es                        | Based XLM-R, XLM-T                          | 2022 |
+|                                          | [2](https://aclanthology.org/2022.findings-aacl.33/) $\clubsuit$                  | En, It and Es                        | Based mBERT, XLM-R, XLM-T                   | 2022 |
+| **UL - GAE**                             | [1](https://aclanthology.org/2022.lrec-1.236/) $\diamondsuit$               | En, De, Ru, Tr, Hr and Sq             | Based mBERT, XLM-R (TFIDF)                   | 2022 |
+| **UL - Adversarial**                      | [1](https://www.sciencedirect.com/science/article/pii/S0045790622002725) $\clubsuit$           
 
 
 ## Resources for Multilingual Hate Speech Detection
