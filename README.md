@@ -223,9 +223,27 @@ Summary of Community Challenges on Multilingual Hate Speech Detection
 
 
 
+##
+##
 
-![Github Repositories for Multilingual source code projects of Hate Speech](Figures/Table%207.%20Github%20Repositories%20for%20Multilingual%20source%20code%20projects%20of%20Hate%20Speech.PNG)
-*Github Repositories for Multilingual source code projects of Hate Speech*
+Github Repositories for Multilingual source code projects of Hate Speech
+| **Name** | **Languages** | **Link** | **Study if available** | **Year** |
+| --- | --- | --- | --- | --- |
+| Enhancing social network hate detection using back translation and GPT-3 augmentations during training and test-time | En, Fr, De, Es and No | [code](https://github.com/OrKatz7/parler-hate-speech) | [COHEN2023101887](https://www.sciencedirect.com/science/article/pii/S1566253523002038) | 2023 |
+| Highly Generalizable Models for Multilingual Hate Speech Detection | En, Ar, De, Id, It, Pt, Es, Fr, Tr, Da and Hi | [code](https://github.com/vidhur2k/Multilngual-Hate-Speech/tree/main/models) | [DBLP:journals/corr/abs-2201-11294](https://arxiv.org/abs/2201.11294) | 2022 |
+| Multilingual-Abuse-Comment-Detection | 17 Hi languages | [code](https://github.com/deekshakoul/Multilingual-Abuse-Comment-Detection) | Non available | 2022 |
+| HateCheck: Functional Tests for Hate Speech Detection Models | Ar, Nl, Fr, De, Hi, It, Zh, Pl, Pt and Es | [code](https://github.com/rewire-online/multilingual-hatecheck) | [rottger-etal-2021-hatecheck](https://aclanthology.org/2021.acl-long.4/) | 2022 |
+| Deep Learning Models for Multilingual Hate Speech Detection | Ar, En, De, Id, It, Pl, Pt, Es and Fr | [code](https://github.com/hate-alert/DE-LIMIT) | [10.1007/978-3-030-67670-4_26](https://link.springer.com/chapter/10.1007/978-3-030-67670-4_26) | 2021 |
+| EACL 2021 OffensEval in Dravidian Languages | Kn, Ml and Ta | [code](https://github.com/murali1996/eacl2021-OffensEval-Dravidian) | [jayanthi-gupta-2021-sj](https://aclanthology.org/2021.dravidianlangtech-1.44/) | 2021 |
+| Leveraging Multilingual Transformers for Hate Speech Detection | En, De and Hi | [code](https://github.com/sayarghoshroy/Hate-Speech-Detection) | [DBLP:journals/corr/abs-2101-03207](https://arxiv.org/abs/2101.03207) | 2021 |
+| Offensive Language Detection from Multilingual Code-Mixed Text using Transformers | Kn, Ml and Ta | [code](https://github.com/eftekhar-hossain/CUET_NLP-EACL_2021) | [DBLP:journals/corr/abs-2103-00455](https://aclanthology.org/2021.dravidianlangtech-1.35/) | 2021 |
+| Multi-oli | Da, Ko and En | [code](https://github.com/jiminsun/multi-oli) | The language-adversarial training pipeline inspired from [keung-etal-2019-adversarial](https://aclanthology.org/D19-1138/) | 2021 |
+| Indonesian Text Classification Multilingual | En and Id | [code](https://github.com/ilhamfp/indonesian-text-classification-multilingual) | [DBLP:journals/corr/abs-2009-05713](https://ieeexplore.ieee.org/document/9429038) | 2021 |
+| Detoxify: Toxic Comment Classification with Pytorch Lightning and Transformers | En, Fr, Es, It, Pt, Tr and Ru | [code](https://github.com/unitaryai/detoxify) | Non available | 2020 |
+| NLPDove at SemEval-2020 Task 12: Improving Offensive Language Detection with Cross-lingual Transfer | En, El, Da, Ar and Tr | [code](https://github.com/hwijeen/OffensEval2020) | [DBLP:journals/corr/abs-2008-01354](https://aclanthology.org/2020.semeval-1.206/) | 2020 |
+| Multilingual Fairness LREC | En, It, Pl, Pt, Es | [code](https://github.com/xiaoleihuang/Multilingual_Fairness_LREC) | [huang-etal-2020-multilingual](https://aclanthology.org/2020.lrec-1.180/) | 2020 |
+
+
 
 ![Summary of APIs and their Language Capabilities in Hate Speech Detection](Figures/Table%208.%20Summary%20of%20APIs%20and%20their%20Language%20Capabilities%20in%20Hate%20Speech%20Detection.PNG)
 *Summary of APIs and their Language Capabilities in Hate Speech Detection*
