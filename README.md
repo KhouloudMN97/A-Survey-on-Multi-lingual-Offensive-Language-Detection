@@ -191,7 +191,7 @@ Note: English (47 papers with 11k citations) is excluded from the figure to have
 the distribution
 
 ## Resources for Multilingual Hate Speech Detection
-Collaborative International and European Projects on Hate Speech
+### Collaborative International and European Projects on Hate Speech
 
 | Project                                                                                                          | Partners                                                                                                      | Year         |
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------|
@@ -209,7 +209,7 @@ Collaborative International and European Projects on Hate Speech
 
 ##
 ##
-Summary of Community Challenges on Multilingual Hate Speech Detection
+#### Summary of Community Challenges on Multilingual Hate Speech Detection
 
 | Challenge Name                                                                                                                                   | Languages                                                                                                                | Year  |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-------|
@@ -226,7 +226,7 @@ Summary of Community Challenges on Multilingual Hate Speech Detection
 ##
 ##
 
-Github Repositories for Multilingual source code projects of Hate Speech
+#### Github Repositories for Multilingual source code projects of Hate Speech
 | **Name** | **Languages** | **Link** | **Study if available** | **Year** |
 | --- | --- | --- | --- | --- |
 | Enhancing social network hate detection using back translation and GPT-3 augmentations during training and test-time | En, Fr, De, Es and No | [code](https://github.com/OrKatz7/parler-hate-speech) | [COHEN2023101887](https://www.sciencedirect.com/science/article/pii/S1566253523002038) | 2023 |
@@ -244,15 +244,43 @@ Github Repositories for Multilingual source code projects of Hate Speech
 | Multilingual Fairness LREC | En, It, Pl, Pt, Es | [code](https://github.com/xiaoleihuang/Multilingual_Fairness_LREC) | [huang-etal-2020-multilingual](https://aclanthology.org/2020.lrec-1.180/) | 2020 |
 
 
+##
+##
+### Summary of APIs and their Language Capabilities in Hate Speech Detection
 
-![Summary of APIs and their Language Capabilities in Hate Speech Detection](Figures/Table%208.%20Summary%20of%20APIs%20and%20their%20Language%20Capabilities%20in%20Hate%20Speech%20Detection.PNG)
-*Summary of APIs and their Language Capabilities in Hate Speech Detection*
+| **API Name** | **Description** | **Multilingual Support** |
+| --- | --- | --- |
+| [HateLab](https://hatelab.net/) | International center for studying hate speech | -- |
+| [RapidAPI Hate Speech Detection](https://rapidapi.com/prasadchandalada/api/hate-speech-detection) | Detection of offensive language | -- |
+| [iSpotHate](https://devpost.com/software/ispothate) | Detection and elimination of hate speech | -- |
+| [HateSonar](https://pypi.org/project/hatesonar/) | Python library - Hate speech detection | -- |
+| [Profanity-check](https://pypi.org/project/profanity-check/) | Python library - Profanity detection | -- |
+| [StopPropagHate](https://www.inesctec.pt/en/projects/stoppropaghateintro) | Hate speech detection and prediction of news potential to provoke such comments. | -- |
+| [Cohere](https://cohere.com/) | Filter out harmful or inappropriate content | -- |
+| [Hive.ai](https://hivemoderation.com/) | High-speed content moderation API | -- |
+| [MODERATION API](https://moderationapi.com/) | Detect and hide sensitive and inappropriate content | -- |
+| [Openai](https://platform.openai.com/docs/guides/moderation/overview) | Detection of abusive language, hate speech, and misinformation. | -- |
+| [Sightengine](https://sightengine.com/docs/profanity-detection-hate-offensive-text-moderation) | Detection of hateful, sexual, and toxic content | English, Chinese, Dutch, French, German, Portuguese, Italian, Swedish, Spanish, Tagalog/Filipino, and Turkish. |
+| [Spectrum Labs’ Guardian](https://www.spectrumlabsai.com/multiple-language-solution) | Employs Natural Language Understanding AI to detect harmful behaviors. | Arabic, French, Hindi, Korean, and many others |
+| [Microsoft Azure](https://learn.microsoft.com/en-us/rest/api/cognitiveservices/contentmoderator/text-moderation) | Detection of profanity | Over 110 languages |
+| [Membrace](https://membrace.ai/api) | Filter out various types of hateful content | English, Spanish, German, French, Polish, Turkish, Dutch, Italian, Swedish, Arabic, Chinese, Portuguese, Japanese, and Russian. |
+| [Alibaba Cloud’s Text Moderation 2.0](https://www.alibabacloud.com/help/en/content-moderation/latest/text-moderation-enhanced) | Content review and custom configurations | Up to 20 languages |
+| [Huawei Cloud](https://www.huaweicloud.com/intl/en-us/product/moderation.html) | Content moderation API | Chinese |
+
 
 
 ## Computational limitations
-![Comparative Analysis of Affordable Computational Resources for Machine Learning Training](Figures/Table%209.%20Comparative%20Analysis%20of%20Affordable%20Computational%20Resources%20for%20Machine%20Learning.PNG)
+### Comparative Analysis of Affordable Computational Resources for Machine Learning Training
 
-*Comparative Analysis of Affordable Computational Resources for Machine Learning Training*
+| **Platform** | **Resources (The cheapest offers)** | **Limitations** |
+| --- | --- | --- |
+| **[Google Colab](https://research.google.com/colaboratory/faq.html)** | Free tier provides an NVIDIA Tesla K80 GPU with 12 GB of RAM. | The session length is capped at 12 hours. After this, all data will be deleted, including any trained models unless they've been saved elsewhere. |
+| **[VastAI](https://vast.ai/)** | Depending on demand, one can rent an NVIDIA GTX 1080 Ti with 11 GB of GPU memory for as low as around $0.10/hour. | Although cost-effective, the availability of cheap resources is highly dependent on demand and can be unreliable. |
+| **[AWS](https://aws.amazon.com/free/)** | The EC2 Spot Instances allow for cheap access to powerful resources. For instance, a g4dn.xlarge instance with an NVIDIA T4 GPU (16 GB of GPU memory) can be rented for around $0.30/hour, but the exact rate varies. | Spot Instances can be interrupted by AWS with a 2-minute notification. They're best for flexible applications that aren't sensitive to sudden interruptions. |
+| **[Google Cloud](https://cloud.google.com/free)** | Preemptible VMs provide affordable access to powerful resources. For example, a preemptible instance with an NVIDIA Tesla T4 GPU can be rented for approximately $0.30/hour, but the exact rate varies. | Preemptible VMs can be stopped by Google at any time if resources are required elsewhere, and they automatically shut down after 24 hours. |
+| **[Microsoft Azure](https://azure.microsoft.com/en-us/free/?cdn=disable)** | Azure Spot Instances provide cheaper access to resources. An example is the Standard_NV4as_v4 Spot instance with a portion (1/8) of an NVIDIA Tesla V100 GPU available for approximately $0.17/hour, though exact rates vary. | Like other spot or preemptible instances, Azure Spot Instances can be interrupted by Microsoft at any time if the resources are required elsewhere. |
+| **[Baidu Cloud Compute (BCC)](https://intl.cloud.baidu.com/product/bcc.html)** | Offers an array of hardware resources, like the NVIDIA deep learning development card and NVIDIA Tesla K40 as cost-effective GPU for beginners and those with lower training requirements. It also offers discounts that can be checked directly on the website. | Potential language barriers given Baidu's primary focus on the Chinese market. |
+
 
 ## Citation
 Not yet provided
