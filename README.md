@@ -190,21 +190,21 @@ Note: English (47 papers with 11k citations) is excluded from the figure to have
 the distribution
 
 ## Resources for Multilingual Hate Speech Detection
-![Collaborative International Projects on Hate Speech](Figures/Table%205.%20Collaborative%20International%20Projects%20on%20Hate%20speech.png)
+![Collaborative International Projects on Hate Speech](Figures/Table%205.%20Collaborative%20International%20Projects%20on%20Hate%20speech.PNG)
 *Collaborative International Projects on Hate Speech*
 
-![Summary of Community Challenges on Multilingual Hate Speech Detection](Figures/Table%206.%20Summary%20of%20Community%20Challenges%20on%20Multilingual%20Hate%20Speech%20Detection.png)
+![Summary of Community Challenges on Multilingual Hate Speech Detection](Figures/Table%206.%20Summary%20of%20Community%20Challenges%20on%20Multilingual%20Hate%20Speech%20Detection.PNG)
 *Summary of Community Challenges on Multilingual Hate Speech Detection*
 
-![Github Repositories for Multilingual source code projects of Hate Speech](Figures/Table%207.%20Github%20Repositories%20for%20Multilingual%20source%20code%20projects%20of%20Hate%20Speech.png)
+![Github Repositories for Multilingual source code projects of Hate Speech](Figures/Table%207.%20Github%20Repositories%20for%20Multilingual%20source%20code%20projects%20of%20Hate%20Speech.PNG)
 *Github Repositories for Multilingual source code projects of Hate Speech*
 
-![Summary of APIs and their Language Capabilities in Hate Speech Detection](Figures/Table%208.%20Summary%20of%20APIs%20and%20their%20Language%20Capabilities%20in%20Hate%20Speech%20Detection.png)
+![Summary of APIs and their Language Capabilities in Hate Speech Detection](Figures/Table%208.%20Summary%20of%20APIs%20and%20their%20Language%20Capabilities%20in%20Hate%20Speech%20Detection.PNG)
 *Summary of APIs and their Language Capabilities in Hate Speech Detection*
 
 
 ## Computational limitations
-![Comparative Analysis of Affordable Computational Resources for Machine Learning Training](Figures/Table%209.%20Comparative%20Analysis%20of%20Affordable%20Computational%20Resources%20for%20Machine%20Learning.png)
+![Comparative Analysis of Affordable Computational Resources for Machine Learning Training](Figures/Table%209.%20Comparative%20Analysis%20of%20Affordable%20Computational%20Resources%20for%20Machine%20Learning.PNG)
 
 *Comparative Analysis of Affordable Computational Resources for Machine Learning Training*
 
