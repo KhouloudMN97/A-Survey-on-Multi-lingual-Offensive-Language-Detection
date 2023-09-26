@@ -167,14 +167,14 @@ and Agr.:Aggressiveness. In “Size” column: Approx.:Approximately. In “Av.�
    | [pereira2019detecting](https://www.mdpi.com/1424-8220/19/21/4654) | 2019 | Es | HS | Twitter | 6000 | <150 | [Y](https://zenodo.org/record/2592149#.ZGuEKXZByUk) |
    | [kumar2018aggression](https://aclanthology.org/L18-1226/) | 2018 | Hi-En | Agr. | Facebook and Twitter | Approx. 18k tweets and 21k Facebook comments | <150 | N |
    | [Alfina2017hate](https://ieeexplore.ieee.org/document/8355039) | 2017 | Id | HS | Twitter | 520 | <200 | [Y](https://github.com/ialfina/id-hatespeech-detection) |
-   | [ousidhoum2019multilingual](#ousidhoum2019multilingual) | 2019 | En, Fr, Ar | HS | Twitter | En:5647 Fr:4014 Ar:3353 | <200 | [Y](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |
-   | [bohra2018dataset](#bohra2018dataset) | 2018 | Hi-En | HS | Twitter | 4575 | <200 | [Y](https://github.com/deepanshu1995/HateSpeech-Hindi-English-Code-Mixed-Social-Media-Text) |
-   | [sanguinetti2018italian](#sanguinetti2018italian) | 2018 | It | HS | Twitter | 6009 | <200 | [Y](https://github.com/msang/hate-speech-corpus) |
-   | [fersini2018overview](#fersini2018overview) | 2018 | Es, En | Misogyny | Twitter | En:3977 Es:4138 | <250 | [Y](https://amiibereval2018.wordpress.com/important-dates/data/) |
-   | [mandl2019overview](#mandl2019overview) | 2019 | En, Hi, De | HS and OL | Twitter and Facebook | En:5852, Hi:4665, De:3819 | <350 | [Y](https://hasocfire.github.io/hasoc/2019/dataset.html) |
-   | [zampieri2020semeval](#zampieri2020semeval) | 2020 | Ar, Da, En, El, Tr | OL | Twitter, Facebook, Reddit, a local newspaper: Ekstra Bladet | En:1448861, Ar:1589, Da:384, El:2486, Tr:6131 | <400 | [Y](https://sites.google.com/site/offensevalsharedtask/offenseval-2020?authuser=0) |
-   | [del2017hate](#del2017hate) | 2017 | It | HS | Facebook | ? | <400 | N |
-   | [basile-etal-2019-semeval](#basile-etal-2019-semeval) | 2019 | Es, En | HS | Twitter | En:13000, Es:6600 | <750 | [Y](https://github.com/cicl2018/HateEvalTeam) |
+   | [ousidhoum2019multilingual](https://aclanthology.org/D19-1474/) | 2019 | En, Fr, Ar | HS | Twitter | En:5647 Fr:4014 Ar:3353 | <200 | [Y](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |
+   | [bohra2018dataset](https://aclanthology.org/W18-1105/) | 2018 | Hi-En | HS | Twitter | 4575 | <200 | [Y](https://github.com/deepanshu1995/HateSpeech-Hindi-English-Code-Mixed-Social-Media-Text) |
+   | [sanguinetti2018italian](https://aclanthology.org/L18-1443/) | 2018 | It | HS | Twitter | 6009 | <200 | [Y](https://github.com/msang/hate-speech-corpus) |
+   | [fersini2018overview](https://ceur-ws.org/Vol-2150/overview-AMI.pdf) | 2018 | Es, En | Misogyny | Twitter | En:3977 Es:4138 | <250 | [Y](https://amiibereval2018.wordpress.com/important-dates/data/) |
+   | [mandl2019overview](https://dl.acm.org/doi/abs/10.1145/3368567.3368584) | 2019 | En, Hi, De | HS and OL | Twitter and Facebook | En:5852, Hi:4665, De:3819 | <350 | [Y](https://hasocfire.github.io/hasoc/2019/dataset.html) |
+   | [zampieri2020semeval](https://aclanthology.org/2020.semeval-1.188/) | 2020 | Ar, Da, En, El, Tr | OL | Twitter, Facebook, Reddit, a local newspaper: Ekstra Bladet | En:1448861, Ar:1589, Da:384, El:2486, Tr:6131 | <400 | [Y](https://sites.google.com/site/offensevalsharedtask/offenseval-2020?authuser=0) |
+   | [del2017hate](https://ceur-ws.org/Vol-1816/paper-09.pdf) | 2017 | It | HS | Facebook | ? | <400 | N |
+   | [basile-etal-2019-semeval](https://aclanthology.org/S19-2007/) | 2019 | Es, En | HS | Twitter | En:13000, Es:6600 | <750 | [Y](https://github.com/cicl2018/HateEvalTeam) |
 
 
 
