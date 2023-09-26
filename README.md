@@ -1,14 +1,17 @@
-# A Survey on Multi-lingual Offensive Language Detection
+# A Survey on Multi-lingual Offensive Language Detection <img src="Figures/Logo.jpeg" width="200">
 
-## This version is not ready yet, it will be finalized soon.
+## This version is currently a work in progress and is not yet finalized. We are actively working on it and anticipate that it will be ready for release in the near future.
+
+### Please let us know if you find out a mistake or have any suggestions by e-mail: khouloud.mnassri@telecom-sudparis.eu
 
 # Table of Contents
+#### The repository structure refers to our survey paper "A Survey on Multi-lingual Offensive Language Detection"
 - [Definition of Hate Speech and Offensive Language](#definition-of-Hate-Speech-and-Offensive-Language)
 - [Background on Multilingual Hate Speech Phenomena](#background-on-multilingual-hate-speech-phenomena)
 - [Approaches on Multilingual Hate Speech Detection](#approaches-on-multilingual-hate-speech-detection)
 - [Datasets on Multilingual Hate Speech Detection](#datasets-on-Multilingual-Hate-Speech-Detection)
 - [Resources for Multilingual Hate Speech Detection](#resources-for-multilingual-hate-speech-detection)
-- [Challenges and Limitations](#challenges-and-limitations)
+- [Computational limitations](#computational-limitations)
 
 ## Definition of Hate Speech and Offensive Language
 ![Figure 1: Categories of Offensive Content](Figures/Fig%201.%20Categories%20of%20Offensive%20Content.png)
@@ -193,7 +196,17 @@ the distribution
 ![Summary of Community Challenges on Multilingual Hate Speech Detection](Figures/Table%206.%20Summary%20of%20Community%20Challenges%20on%20Multilingual%20Hate%20Speech%20Detection.png)
 *Summary of Community Challenges on Multilingual Hate Speech Detection*
 
+![Github Repositories for Multilingual source code projects of Hate Speech](Figures/Table%207.%20Github%20Repositories%20for%20Multilingual%20source%20code%20projects%20of%20Hate%20Speech.png)
+*Github Repositories for Multilingual source code projects of Hate Speech*
+
+![Summary of APIs and their Language Capabilities in Hate Speech Detection](Figures/Table%208.%20Summary%20of%20APIs%20and%20their%20Language%20Capabilities%20in%20Hate%20Speech%20Detection.png)
+*Summary of APIs and their Language Capabilities in Hate Speech Detection*
 
 
-## Challenges and Limitations
-Explore the challenges and limitations of multilingual hate speech detection in this section.
+## Computational limitations
+![Comparative Analysis of Affordable Computational Resources for Machine Learning Training](Figures/Table%209.%20Comparative%20Analysis%20of%20Affordable%20Computational%20Resources%20for%20Machine%20Learning.png)
+
+*Comparative Analysis of Affordable Computational Resources for Machine Learning Training*
+
+## Citation
+Not yet provided
