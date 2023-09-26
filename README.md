@@ -12,7 +12,7 @@
 
 ## Definition of Hate Speech and Offensive Language
 ![Figure 1: Categories of Offensive Content](Figures/Fig%201.%20Categories%20of%20Offensive%20Content.png)
-*Figure 1: Categories of Offensive Content*
+*Categories of Offensive Content*
 
 Offensive content, hate speech, and aggressive content are distinct but they are often overlapping categories that involve harmful or negative expressions. While there is some overlap between these categories, their distinctions lie in their specific intentions, targets, and impacts on individuals or communities.
 
@@ -135,7 +135,7 @@ and Agr.:Aggressiveness. In “Size” column: Approx.:Approximately. In “Av.�
 | [ali2022hate](https://dl.acm.org/doi/abs/10.1016/j.csl.2022.101365) | 2022 | Ur | HS and OL | Twitter | 10526 | <50 | N |
 | [ljubevsic2018datasets](https://aclanthology.org/W18-5116/) | 2018 | Sl, Hr | Moderated News Comments | The Slovene RTV MCC and Croatian 24sata News Portals | 24639651 | <50 | [Y(1)](https://www.clarin.si/repository/xmlui/handle/11356/1201), [Y(2)](https://www.clarin.si/repository/xmlui/handle/11356/1202) |
 | [vu2020hsd](https://arxiv.org/abs/2007.06493) | 2020 | Vi | HS and OL | Facebook | 5431 | <50 | [Y](https://github.com/vietnlp/vlsp2019_hatespeech_task/) |
-| [ptaszynski2019results](https://ruj.uj.edu.pl/xmlui/bitstream/handle/item/152265/ptaszynski_pieciukiewicz_dybala_results_of_the_poleval_2019.pdf?sequence=1&isAllowed=y) | 2019 | Pl | HS and Cyberbullying | Twitter | 11041 | <50 | [Y](https://github.com/ptaszynski |
+| [ptaszynski2019results](https://ruj.uj.edu.pl/xmlui/bitstream/handle/item/152265/ptaszynski_pieciukiewicz_dybala_results_of_the_poleval_2019.pdf?sequence=1&isAllowed=y) | 2019 | Pl | HS and Cyberbullying | Twitter | 11041 | <50 | [Y](https://github.com/ptaszynski) |
 | [gaikwad-etal-2021-cross](https://aclanthology.org/2021.ranlp-1.50/) | 2021 | Mr | OL | Twitter | MOLD 1.0: 2499 | <50 | [Y](https://github.com/tharindudr/MOLD) |
    | [haddad2019t](https://www.springerprofessional.de/en/t-hsab-a-tunisian-hate-speech-and-abusive-dataset/17242764) | 2019 | Tunisian Ar | HS and Abusive | Different social media platforms | 6075 | <50 | [Y](https://github.com/Hala-Mulki/T-HSAB-A-Tunisian-Hate-Speech-and-Abusive-Dataset) |
    | [das2021bangla](https://arxiv.org/abs/2203.16775) | 2021 | Bn | HS | Facebook | 7425 | <50 | N |
@@ -174,8 +174,26 @@ and Agr.:Aggressiveness. In “Size” column: Approx.:Approximately. In “Av.�
 
 
 
+
+
+![Datasets distribution based on languages](Figures/Fig%202.%20Datasets%20distribution%20based%20on%20languages.jpg)
+*Datasets distribution based on languages*
+
+
+Number of papers studies in this survey and their
+impact (based on citations @May 2023).
+
+Note: English (47 papers with 11k citations) is excluded from the figure to have a better visualization in
+the distribution
+
 ## Resources for Multilingual Hate Speech Detection
-This section provides resources related to multilingual hate speech detection.
+![Collaborative International Projects on Hate Speech](Figures/Table%205.%20Collaborative%20International%20Projects%20on%20Hate%20speech.png)
+*Collaborative International Projects on Hate Speech*
+
+![Summary of Community Challenges on Multilingual Hate Speech Detection](Figures/Table%206.%20Summary%20of%20Community%20Challenges%20on%20Multilingual%20Hate%20Speech%20Detection.png)
+*Summary of Community Challenges on Multilingual Hate Speech Detection*
+
+
 
 ## Challenges and Limitations
 Explore the challenges and limitations of multilingual hate speech detection in this section.
