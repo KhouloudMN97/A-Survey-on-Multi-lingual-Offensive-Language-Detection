@@ -191,11 +191,38 @@ Note: English (47 papers with 11k citations) is excluded from the figure to have
 the distribution
 
 ## Resources for Multilingual Hate Speech Detection
-![Collaborative International Projects on Hate Speech](Figures/Table%205.%20Collaborative%20International%20Projects%20on%20Hate%20speech.PNG)
-*Collaborative International Projects on Hate Speech*
+Collaborative International and European Projects on Hate Speech
 
-![Summary of Community Challenges on Multilingual Hate Speech Detection](Figures/Table%206.%20Summary%20of%20Community%20Challenges%20on%20Multilingual%20Hate%20Speech%20Detection.PNG)
-*Summary of Community Challenges on Multilingual Hate Speech Detection*
+| Project                                                                                                          | Partners                                                                                                      | Year         |
+|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------|
+| [DARE: Dialogue About Radicalisation and Equality](https://www.dare-h2020.org) Not provided now!                                   | Belgium, Croatia, France, Germany, Greece, Malta, Norway, Poland, Russian Federation, The Netherlands, Tunisia, Turkey and the UK | 2017-2020    |
+| [MANDOLA: Monitoring and Detecting OnLine Hate Speech](https://mandola-project.eu/)                               | Greece, Ireland, France, Spain, Bulgaria and Cyprus                                                         | 2017         |
+| [PRO2HATERS: PROactive PROfiling of HATE speech spreadeRs](https://www.symanto.com/nlp-resources/cdti-prohaters/) | Germany                                                                                                       | 2017         |
+| [Hatemeter: Hate speech tool for monitoring, analyzing and tackling Anti-Muslim hatred online](http://hatemeter.eu/?pageid=197) | Italy, France and the UK | 2018-2020 |
+| [sCAN: specialised Cyber-Activists Network](https://scan-project.eu/the-project/)                                | France, Germany, Italy, Belgium, Czech Republic, Austria, Slovenia, Croatia and Latvia | 2018-2020 |
+| [PANACEA: Protection and privAcy of hospital and health iNfrastructures with smArt Cyber sEcurity and cyber threat toolkit for dAta and people](https://cordis.europa.eu/project/id/826293) | Italy, UK, Greece, France, Belgium, Netherlands, Germany and Ireland | 2019-2022 |
+| [DTCT: Detect Then Act](https://dtct.eu/)                                                                        | Belgium, Germany, the UK and the Netherlands                                                                 | 2019-2021    |
+| [Identrics](https://identrics.ai/hate-speech-detection/)                                                        | Bulgaria                                                                                                      | 2023         |
+| [OHI: Online Hate Index](https://www.adl.org/online-hate-index)                                                | USA                                                                                                           | Released in 2018 |
+| [ProPublica’s Documenting Hate Project](https://projects.propublica.org/graphics/hatecrimes)                   | USA                                                                                                           | Started in 2017  |
+
+
+##
+##
+Summary of Community Challenges on Multilingual Hate Speech Detection
+
+| Challenge Name                                                                                                                                   | Languages                                                                                                                | Year  |
+|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-------|
+| [TRAC-1: Aggression Identification](https://sites.google.com/view/trac1/shared-task) | English, Hindi (Roman and Devanagari scripts)                                                                         | 2018  |
+| [SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter](https://competitions.codalab.org/competitions/19935) | English, Spanish | 2019  |
+| [Kaggle’s Jigsaw Multilingual Toxic Comment Classification](https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification) | Multilingual (trained on English data) | 2020  |
+| [Hate Speech Detection (HASOC) Competition](https://competitions.codalab.org/competitions/26027) | English, German, Hindi | 2020  |
+| [TRAC 2020: Trolling, Aggression, and Cyberbullying](https://sites.google.com/view/trac2/shared-task) | English, Hindi (Roman and Devanagari scripts), Bangla (Roman and Bangla scripts) | 2020  |
+| [Kaggle IIIT-D Multilingual Abusive Comment Identification](https://www.kaggle.com/competitions/iiitd-abuse-detection-challenge) | Multiple Indic languages | 2021  |
+| [PAN shared task of Profiling Hate Speech Spreaders on Twitter](https://pan.webis.de/clef21/pan21-web/author-profiling.html) | English, Spanish | 2021  |
+
+
+
 
 ![Github Repositories for Multilingual source code projects of Hate Speech](Figures/Table%207.%20Github%20Repositories%20for%20Multilingual%20source%20code%20projects%20of%20Hate%20Speech.PNG)
 *Github Repositories for Multilingual source code projects of Hate Speech*
