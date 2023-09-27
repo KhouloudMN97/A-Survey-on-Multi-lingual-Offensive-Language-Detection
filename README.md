@@ -3,6 +3,8 @@
 
 ### Please let us know if you have any remarks by e-mail: khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
 
+https://dice.wp.telecom-sudparis.eu/
+
 # Table of Contents 📑
 #### The repository structure refers to our survey paper "A Survey on Multi-lingual Offensive Language Detection"
 - [Definition of Hate Speech and Offensive Language](#definition-of-Hate-Speech-and-Offensive-Language) 🗣️
