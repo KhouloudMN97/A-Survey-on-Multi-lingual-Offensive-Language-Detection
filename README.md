@@ -20,7 +20,7 @@ https://dice.wp.telecom-sudparis.eu/
 
 ## Definition of Hate Speech and Offensive Language
 ![Figure 1: Categories of Offensive Content](Figures/Fig%201.%20Categories%20of%20Offensive%20Content.png)
-*Categories of Offensive Content*
+### *Categories of Offensive Content*
 
 Offensive content, hate speech, and aggressive content are distinct but they are often overlapping categories that involve harmful or negative expressions. While there is some overlap between these categories, their distinctions lie in their specific intentions, targets, and impacts on individuals or communities.
 
@@ -111,7 +111,7 @@ $\diamondsuit$/$\clubsuit$: $\diamondsuit$ refers to **Multilingual** methods & 
 
 ## Datasets on Multilingual Hate Speech Detection
 
-A summary of the available datasets for hate speech detection.
+### A summary of the available datasets for hate speech detection.
 
 Abbreviations notes: For the column names, Ref.:Reference, Cit.:Citation by May-2023, and
 Av.:Available. Language names have been shortened using the [ISO 639 language codes list](https://www.loc.gov/standards/iso639-2/php/code_list.php).
@@ -181,11 +181,11 @@ and Agr.:Aggressiveness. In “Size” column: Approx.:Approximately. In “Av.�
    | [basile-etal-2019-semeval](https://aclanthology.org/S19-2007/) | 2019 | Es, En | HS | Twitter | En:13000, Es:6600 | <750 | [Y](https://github.com/cicl2018/HateEvalTeam) |
 
 
-
+##
 
 
 ![Datasets distribution based on languages](Figures/Fig%202.%20Datasets%20distribution%20based%20on%20languages.jpg)
-*Datasets distribution based on languages*
+### *Datasets distribution based on languages*
 
 
 Number of papers studies in this survey and their
