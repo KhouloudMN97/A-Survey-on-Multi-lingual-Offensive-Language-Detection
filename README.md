@@ -4,6 +4,7 @@
 ### Please let us know if you have any remarks by e-mail: khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
 
 https://dice.wp.telecom-sudparis.eu/
+
 <img src="Figures/Logo.jpeg" width="200">
 
 # Table of Contents 📑
