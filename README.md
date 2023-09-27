@@ -1,7 +1,7 @@
 # A Survey on Multi-lingual Offensive Language Detection <img src="Figures/Logo.jpeg" width="200">
 
 
-### Please let us know if you have any suggestions by e-mail: khouloud.mnassri@telecom-sudparis.eu
+### Please let us know if you have any remarks by e-mail: khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
 
 # Table of Contents 📑
 #### The repository structure refers to our survey paper "A Survey on Multi-lingual Offensive Language Detection"
