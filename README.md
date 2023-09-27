@@ -1,8 +1,7 @@
 # A Survey on Multi-lingual Offensive Language Detection <img src="Figures/Logo.jpeg" width="200">
 
-## This version is currently a work in progress and is not yet finalized. We are actively working on it and anticipate that it will be ready for release in the near future.
 
-### Please let us know if you find out a mistake or have any suggestions by e-mail: khouloud.mnassri@telecom-sudparis.eu
+### Please let us know if you have any suggestions by e-mail: khouloud.mnassri@telecom-sudparis.eu
 
 # Table of Contents 📑
 #### The repository structure refers to our survey paper "A Survey on Multi-lingual Offensive Language Detection"
