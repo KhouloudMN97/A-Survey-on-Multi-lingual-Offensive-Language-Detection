@@ -1,7 +1,8 @@
 # A Survey on Multi-lingual Offensive Language Detection 
 
 
-### Feel free to reach us for any questions or remarks by e-mail: khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
+### Feel free to reach us for any questions or remarks by e-mail: 
+khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
 
 https://dice.wp.telecom-sudparis.eu/
 
