@@ -19,7 +19,7 @@ https://dice.wp.telecom-sudparis.eu/
 
 
 ## Definition of Hate Speech and Offensive Language
-![Figure 1: Categories of Offensive Content](Figures/Fig%201.%20Categories%20of%20Offensive%20Content.png)
+![Figure 1: Categories of Offensive Content](Figures/Fig%201.%20Categories%20of%20Offensive%20Content.jpg)
 ### *Categories of Offensive Content*
 
 Offensive content, hate speech, and aggressive content are distinct but they are often overlapping categories that involve harmful or negative expressions. While there is some overlap between these categories, their distinctions lie in their specific intentions, targets, and impacts on individuals or communities.
@@ -35,9 +35,10 @@ In this section, we'll explore the multilingual hate speech phenomena.
 | **Towards generalizable hate speech detection: a review on obstacles and solutions** [2]                  | Presenting NLP methods used for automated hate speech detection on online social media networks.                                                                                                                                                                                  | Not presenting multilingual hate speech detection.                                                                                                                                                                | 2021 | Narrative |
 | **A Survey on Automatic Detection of Hate Speech in Text** [3]                                               | Provide an overview of the research conducted in hate speech detection, which includes describing available methods and resources.                                                                                                                                         | General overview about hate speech detection, not focusing on the multilingual aspect of the subject.                                                                                                           | 2018 | Systematic |
 | **A systematic review of Hate Speech automatic detection using Natural Language Processing** [4]           | Focusing on the use of deep learning technologies and architectures in hate speech detection, with an emphasis on the sequence of pipeline processing.                                                                                                                               | Although presenting some resources (datasets and some available Github projects) in different languages, but no detailed overview of multilinguality.                      | 2023 | Systematic |
-| **Resources and benchmark corpora for hate speech detection: a systematic review** [5]                     | Analyzing the annotated collections of texts released by the broader community, considering their method of creation, topic, language range, and other pertinent factors. | No analysis of the existing methods used in multilingual hate speech detection.                                                                                                                                             | 2021 | Systematic |
-| **Towards multidomain and multilingual abusive language detection: a survey** [6]                           | A study of existing researches about the available datasets and methods used in cross-domain and cross-lingual cases.                                                                                                                                                          | Focus on the cross-lingual side only in the hate speech detection. No analysis of the available products or resources in the community, used and can be used in multilingual detection of hate speech. | 2023 | Narrative |
-| **A literature survey on multimodal and multilingual automatic hate speech identification** [7]             | A survey of hate speech identification methods (strengths and weaknesses), and popular benchmark datasets.                                                                                                                                                              | Presenting approaches in several languages (monolingual), but no focus on multilingual nor cross-lingual approaches.                                                                                                         | 2023 | Narrative |
+|**Directions in abusive language training data, a systematic review: Garbage in, garbage out** [5] | Comprehensive review of 63 abusive language datasets in several languages. It addresses the opportunities and problems of open science in this area and provides experts building new abusive content databases. | Only focus on datasets, not considering existing multilingual approaches in the field. | 2020 | Systematic |
+| **Resources and benchmark corpora for hate speech detection: a systematic review** [6]                     | Analyzing the annotated collections of texts released by the broader community, considering their method of creation, topic, language range, and other pertinent factors. | No analysis of the existing methods used in multilingual hate speech detection.                                                                                                                                             | 2021 | Systematic |
+| **Towards multidomain and multilingual abusive language detection: a survey** [7]                           | A study of existing researches about the available datasets and methods used in cross-domain and cross-lingual cases.                                                                                                                                                          | Focus on the cross-lingual side only in the hate speech detection. No analysis of the available products or resources in the community, used and can be used in multilingual detection of hate speech. | 2023 | Narrative |
+| **A literature survey on multimodal and multilingual automatic hate speech identification** [8]             | A survey of hate speech identification methods (strengths and weaknesses), and popular benchmark datasets.                                                                                                                                                              | Presenting approaches in several languages (monolingual), but no focus on multilingual nor cross-lingual approaches.                                                                                                         | 2023 | Narrative |
 
 **Table 1: Key previous surveys on the topic of (multilingual) hate speech detection.**
 
@@ -49,9 +50,10 @@ In this section, we'll explore the multilingual hate speech phenomena.
 [2]: https://peerj.com/articles/cs-598/
 [3]: https://dl.acm.org/doi/10.1145/3232676
 [4]: https://www.sciencedirect.com/science/article/pii/S0925231223003557
-[5]: https://link.springer.com/article/10.1007/s10579-020-09502-8
-[6]: https://dl.acm.org/doi/abs/10.1007/s00779-021-01609-1
-[7]: https://dl.acm.org/doi/abs/10.1007/s00530-023-01051-8
+[5]:https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243300 
+[6]: https://link.springer.com/article/10.1007/s10579-020-09502-8
+[7]: https://dl.acm.org/doi/abs/10.1007/s00779-021-01609-1
+[8]: https://dl.acm.org/doi/abs/10.1007/s00530-023-01051-8
 
 
 
@@ -206,6 +208,8 @@ the distribution
 | [sCAN: specialised Cyber-Activists Network](https://scan-project.eu/the-project/)                                | France, Germany, Italy, Belgium, Czech Republic, Austria, Slovenia, Croatia and Latvia | 2018-2020 |
 | [PANACEA: Protection and privAcy of hospital and health iNfrastructures with smArt Cyber sEcurity and cyber threat toolkit for dAta and people](https://cordis.europa.eu/project/id/826293) | Italy, UK, Greece, France, Belgium, Netherlands, Germany and Ireland | 2019-2022 |
 | [DTCT: Detect Then Act](https://dtct.eu/)                                                                        | Belgium, Germany, the UK and the Netherlands                                                                 | 2019-2021    |
+| [Stand By Me](https://www.standbymeproject.eu/) | Italy, Poland and Hungary | 2020 |
+| [EOOH: The European Observatory of Online Hate](https://eooh.eu/) | Belgium, Slovakia and the Netherlands | 2021|
 | [Identrics](https://identrics.ai/hate-speech-detection/)                                                        | Bulgaria                                                                                                      | 2023         |
 | [OHI: Online Hate Index](https://www.adl.org/online-hate-index)                                                | USA                                                                                                           | Released in 2018 |
 | [ProPublica’s Documenting Hate Project](https://projects.propublica.org/graphics/hatecrimes)                   | USA                                                                                                           | Started in 2017  |
