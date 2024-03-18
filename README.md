@@ -1,5 +1,8 @@
 # A Survey on Multi-lingual Offensive Language Detection 
 
+### Citation
+Mnassri, K., Farahbakhsh, R., Chalehchaleh, R., Rajapaksha, P., Jafari, A. R., Li, G., & Crespi, N. (2024). A survey on multi-lingual offensive language detection. *PeerJ Computer Science*. [Accepted Manuscript].
+
 
 ### *Feel free to reach us for any questions or remarks by e-mail*: 
 khouloud.mnassri@telecom-sudparis.eu or reza.farahbakhsh@telecom-sudparis.eu
